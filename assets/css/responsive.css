@@ -1,0 +1,41 @@
+@media only screen and (min-width: 992px) {
+    .comps-5 {
+        height: 250px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .comps-5 {
+        height: 220px;
+    }    
+}
+
+@media (max-width: 991px) {
+    .navbar-nav .nav-item {
+        text-align: center;
+        padding: 10px; 
+    }  
+}
+
+@media (max-width: 480px) {
+    .home.sections {
+        padding-top: 50px;
+    }
+    .row .col-sm-6:first-of-type {
+        padding-bottom: 30px;
+    }
+    .about-photo {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .comps-5 {
+        margin-top: -30px;
+    }
+    .comps-3 {
+        margin-top: -30px;
+    }
+
+}

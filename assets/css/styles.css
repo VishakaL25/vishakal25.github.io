@@ -1,0 +1,246 @@
+/* ============= Global CSS ================== */
+
+.tile-box-shadow {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, .45);
+    width: 100%;
+    overflow:hidden;
+    min-height:800px;
+}
+
+.heading-content{
+    margin-bottom: 4rem;
+}
+.heading-content h3{
+    font-size:40px;
+    font-family: "Raleway Webfont";
+    font-weight:700;
+    letter-spacing:3px;
+}
+
+.sections {
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.bg-1 {
+    color: #fff;
+    background: #fdcd3b;
+  }
+  
+.bg-2 {
+color: #fff;
+background:#ff6464;
+}
+
+.bg-3 {
+    color: #fff;
+    background: #5ac8fa;
+}
+
+.bg-4 {
+    color: #fff;
+    background: #D43F3F;
+}
+
+.bg-5 {
+    color: #fff;
+    background: #434E3C;
+}
+
+.bg-6 {
+    color: #fff;
+    background: #99CD4E;
+}
+  
+
+/* ============= Global CSS ================== */
+
+
+
+/* ============= Navbar CSS ================== */
+
+
+/* ============= Navbar CSS ================== */
+
+/* ============= Home CSS START================== */
+.home {
+    background: #dddfeb;
+}
+
+.about-photo {
+    max-height: 400px;
+    overflow: hidden;
+    padding: 0 100px;
+}
+
+.about-photo img {
+    max-width: 100%;
+}
+
+/* ============= Home CSS END================== */
+
+/* ============= Features CSS START================== */
+
+.features .comps-container {
+    border-radius: 50%;
+    /* margin: 0 auto; */
+    text-align: center;
+}
+
+[class |= comps] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 1px 3px 1px rgba(60,64,67,0.149);
+    padding: 10px;
+    transition: 0.2s ease-out;
+}
+
+[class |= comps]:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.comps-1 {
+    width: 100px;
+    height: 100px;
+}
+.comps-2 {
+    width: 120px;
+    height: 120px;
+}
+.comps-3 {
+    width: 150px;
+    height: 150px;
+}
+.comps-4 {
+    width: 200px;
+    height: 200px;
+}
+.comps-5 {
+    width: 250px;
+    height: 250px;
+}
+
+
+.skills-container .bar.flex {
+    display: flex;
+    position: relative;
+    background: #eeeeee;
+    align-items: center;
+    margin-top: 20px
+}
+
+.skills-container .bar.flex .bar-fill {
+    background: #428bad;
+    padding: 6px;
+    color: #fff;
+}
+
+.skills-container .bar.flex span {
+    right: 0;
+    padding: 0 10px;
+    position: absolute;
+}
+
+.skills-container.language .bar.flex .bar-fill {
+    background: #99CD4E;
+}
+
+
+/* ============= Features CSS END ================== */
+
+/* ============= Details CSS START ================== */
+
+.details {
+    width: 100%;
+    overflow: hidden;
+}
+
+.details-1-bg {
+    background: url(../images/background-1.jpg) no-repeat center top fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+.details-2-bg {
+    background: url(../images/background-1.jpg) no-repeat center top fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+.details .overlay {
+    padding-top: 100px;
+}
+.details .details-area {
+    background: rgba(55, 38, 57, 0.64);
+    padding: 60px 40px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.details-area h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: "Raleway Webfont";
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.details-area p,
+.details-area a {
+    margin: 0 0 10px;
+    color: #ecf0f2;
+    font-size: 1rem;
+}
+
+/* ============= Features CSS END ================== */
+
+/* ============= Footer CSS ================== */
+
+.footer {
+    padding-top:50px;
+    padding-bottom:50px;
+    color:#fff;
+    background:#222222;
+}
+/* For Footer Area  * /
+.main-footer .social{
+    margin-bottom:10px;
+}
+.main-footer .social a{
+    color:#c3bec2;
+    font-size:30px;
+}
+.main-footer .social a:hover{
+    color:#ff2b4a;
+}
+.main-footer .social a i{
+    border-right:1px solid #c3bec2;
+    padding:0 10px 0 10px;
+}
+.main-footer .social a i.dribbble{
+    border-right:0;
+} */
+.main-footer p{
+    color:#c3bec2;
+    font-size:12px;	
+}
+
+.footer .row p {
+    text-align: center;
+}
+
+/* ============= Footer CSS ================== */
