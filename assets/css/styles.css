@@ -75,10 +75,39 @@ background:#ff6464;
     color: #fff;
     background: #226089;
 }
-.bg-9 {
+.bg-10 {
     color: #fff;
     background: #d09090;
 }
+
+
+.rule {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    height: 1em;
+    line-height: .3
+}
+
+.rule:after,.rule:before {
+    content: " ";
+    position: relative;
+    background-color: #ccc;
+    display: block;
+    height: 1px;
+    -webkit-flex-grow: .5;
+    flex-grow: .5
+}
+
+.rule:before {
+    margin-right: .5em
+}
+
+.rule:after {
+    margin-left: .5em
+}
+
   
 
 /* ============= Global CSS ================== */
@@ -105,17 +134,42 @@ background:#ff6464;
     max-width: 100%;
 }
 
+.about-content h2 {
+    font-family: 'crimson text', serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.about-content h3 {
+    justify-content: center;
+    font-size: 35px;
+}
+.about-content.rule:after, .about-content.rule:before {
+    flex-grow: 0.4;
+}
+
 .about-content  p {
+    margin-top: 25px;
     font-size: 1.2rem;
+}
+
+.about-wrapper .col-md-6:last-of-type {
+    background-color: #f7f6f6;
+    padding: 30px;
 }
 
 /* ============= Home CSS END================== */
 
 /* ============= Features CSS START================== */
 
+
+.features {
+    background-color: #f7f4ed9e;
+}
+
 .features .comps-container {
     border-radius: 50%;
-    /* margin: 0 auto; */
+    transform: scale3d(1.3, 1.3, 1.3);
     text-align: center;
 }
 
@@ -129,7 +183,8 @@ background:#ff6464;
 }
 
 [class |= comps]:hover {
-    transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.5, 1.5, 1.5);
+    z-index: 2;
 }
 
 .comps-1 {
@@ -272,4 +327,10 @@ background:#ff6464;
     text-align: center;
 }
 
+.footer .credits a {
+    color: #c3bec2;
+}
+.footer .credits a:hover {
+    color: #c3bec2;
+}
 /* ============= Footer CSS ================== */
