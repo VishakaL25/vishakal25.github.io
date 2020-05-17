@@ -22,7 +22,7 @@
         padding-top: 50px;
     }
     .row .col-sm-6:first-of-type {
-        padding-bottom: 30px;
+        /* padding-bottom: 30px; */
     }
     .about-photo {
         height: 200px;

@@ -1,5 +1,9 @@
 /* ============= Global CSS ================== */
 
+body {
+    font-family: 'Crimson Text', serif;
+}
+
 .tile-box-shadow {
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
 }
@@ -59,6 +63,22 @@ background:#ff6464;
     color: #fff;
     background: #99CD4E;
 }
+.bg-7{
+    color: #fff;
+    background: #af994b;
+}
+.bg-8 {
+    color: #fff;
+    background: #ff9f68;
+}
+.bg-9 {
+    color: #fff;
+    background: #226089;
+}
+.bg-9 {
+    color: #fff;
+    background: #d09090;
+}
   
 
 /* ============= Global CSS ================== */
@@ -72,7 +92,7 @@ background:#ff6464;
 
 /* ============= Home CSS START================== */
 .home {
-    background: #dddfeb;
+    background: #fbf9fa;
 }
 
 .about-photo {
@@ -83,6 +103,10 @@ background:#ff6464;
 
 .about-photo img {
     max-width: 100%;
+}
+
+.about-content  p {
+    font-size: 1.2rem;
 }
 
 /* ============= Home CSS END================== */
@@ -215,6 +239,11 @@ background:#ff6464;
     padding-bottom:50px;
     color:#fff;
     background:#222222;
+    font-family: "Raleway Webfont";
+}
+
+.footer h3 {
+    font-size: 2rem;
 }
 /* For Footer Area  * /
 .main-footer .social{
