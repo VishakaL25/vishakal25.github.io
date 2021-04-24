@@ -247,14 +247,14 @@ background:#ff6464;
 }
 
 .details-1-bg {
-    background: url(../images/background-1.jpg) no-repeat center top fixed;
+    background: url(../images/background-2.jpg) no-repeat center top fixed;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
 }
 .details-2-bg {
-    background: url(../images/background-1.jpg) no-repeat center top fixed;
+    background: url(../images/background-2.jpg) no-repeat center top fixed;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
